@@ -1,0 +1,81 @@
+Screen {
+    background: #0a1012;
+}
+
+
+Horizontal {
+    width: 100%;
+    height: 1fr;
+}
+
+Vertical {
+    height: 1fr;
+}
+
+.topbar {
+    height: 1;
+    margin: 1;
+}
+
+.topbar-left {
+    margin-left: 2;
+    color: #51b186;
+    text-style: bold;
+    width: 1fr;
+}
+
+.topbar-right {
+    width: 1fr;
+    margin-right: 1;
+    text-style: dim;
+    text-align: right;
+}
+
+.panel {
+    width: 100%;
+    height: 1fr;
+    border: round #1b5a3e;
+}
+
+.left {
+    margin-right: 1;
+    margin-left: 2;
+    width: 0.5fr;
+}
+
+.right {
+    width: 1fr;
+    margin-right: 2;
+}
+
+#output {
+    height: 0.4fr;
+}
+
+
+.message-bar {
+    height: 1;
+    background: #d992fc33;
+    padding: 0;
+}
+
+
+#chatinput {
+    height: 1;
+    padding: 0;
+    margin: 0;
+    background: #123b29;
+    border: none;
+}
+
+#chatinput .input--cursor {
+    color: #ffffff;
+    background: #51b186;
+    padding: 0;
+}
+
+#ring {
+    scrollbar-color: #0a1012;
+    scrollbar-background: #0a1012;
+    scrollbar-size: 3 3;
+}
